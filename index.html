@@ -12,34 +12,34 @@
     <title>Konténer</title>
 </head>
 
-<body>
+<body style="background-color: #abc7decc">
     <div class="container">
         <div class="row">
             <div class="col-4"></div>
-            <div class="col-4 mt-5">
+            <div class="col-4 text-white rounded p-4 mt-5" style="background-color: #5289e9">
                 <h1>Konténer árak</h1>
                 <div class="mt-4">
                     <label for="kontener">Konténer típusa:</label>
                     <select id="kontener" name="kontener" class="form-control">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
+                        <option value="NegySitt">4 m3 sitt</option>
+                        <option value="NegyVegy">4 m3 vegyes</option>
+                        <option value="OtSitt">5 m3 sitt</option>
+                        <option value="OtVegy">5 m3 vegyes</option>
+                        <option value="HatVegy">6 m3 vegyes</option>
                     </select>
                 </div>
                 <div class="mt-4">
                     <label for="telepules">Település:</label>
                     <select id="telepules" name="telepules" class="form-control">
-                        <option value="">1</option>
-                        <option value="">2</option>
-                        <option value="">3</option>
-                        <option value="">4</option>
-                        <option value="">5</option>
+                        <option value="19ker">Budapest 19. kerület</option>
+                        <option value="18ker">Budapest 18. kerület</option>
+                        <option value="vecses">Vecsés</option>
+                        <option value="gyal">Gyál</option>
+                        <option value="felsopakony">Felsőpakony</option>
                     </select>
                 </div>
-                <div class="mt-5">
-                    <button type="button" onclick="mutasd()" class="btn btn-light">Mutasd az összeget</button>
+                <div class="mt-5 d-grid">
+                    <button type="button" onclick="mutasd()" class="btn btn-light btn-lg">Mutasd az összeget</button>
                 </div>
 
 
